@@ -19,6 +19,13 @@
     />
     <!-- Icono -->
     <link rel="icon" type="image/png" href="./assets/icono/favicon.ico" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <!-- Styles -->
     <link rel="stylesheet" href="./styles/css/styles.css" />
     <!-- Google Font -->
@@ -28,13 +35,6 @@
     />
     <!-- Titulo -->
     <title>Home | Flybondi</title>
-    <!-- Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
   </head>
   <body>
     <script
@@ -80,7 +80,34 @@
     <!-- /Nav -->
 
     <!-- Header -->
-    <header></header>
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./assets/header/carousel1.webp" class="d-block w-100 headerImg" alt="banner oferta rio de janeiro">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/header/carousel2.webp" class="d-block w-100 headerImg" alt="banner oferta equipaje tarifa">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/header/carousel3.webp" class="d-block w-100 headerImg" alt="banner flybondi big box">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+    </header>
     <!-- /Header -->
 
     <!-- Main -->

@@ -1,5 +1,9 @@
 
 
+.headerImg {
+    max-height: 450px;
+}
+
 .navContainer {
     justify-content: unset !important;
 }
@@ -22,6 +26,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .headerImg {
+        min-height: 336px;
+    }
+    
     .navItem {
         display: flex !important;
         justify-content: flex-end !important;
@@ -30,6 +38,13 @@
 }
 
 @media screen and (max-width: 768px) {
+    .headerImg {
+        min-height: 215px;
+        width: 150% !important;
+        background-position-x: 50%;
+        background-position-y: 50%;
+    }
+    
     .navItem {
         display: flex;
         flex-direction: row;
