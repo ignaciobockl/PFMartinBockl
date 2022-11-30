@@ -1,54 +1,61 @@
+@import 'variables';
 
+* {
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
+  color: $color-font;
+}
 
 .headerImg {
-    max-height: 450px;
+  max-height: 450px;
 }
 
 .navContainer {
-    justify-content: unset !important;
+  justify-content: unset !important;
 }
 
 .navDivContainer {
-    padding-left: 15px;
-    padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 10px;
 }
 
 .navItemBandera {
-    height: 30px;
-    padding-right: 15px;
-    width: 30px;
+  height: 30px;
+  padding-right: 15px;
+  width: 30px;
 }
 
 .navLogo {
-    height: 40px;
-    // padding-left: 15px;
-    width: 150px;
+  height: 40px;
+  // padding-left: 15px;
+  width: 150px;
 }
 
 @media screen and (min-width: 768px) {
-    .headerImg {
-        min-height: 336px;
-    }
-    
-    .navItem {
-        display: flex !important;
-        justify-content: flex-end !important;
-        flex-direction: row;
-    }
+  .headerImg {
+    min-height: 336px;
+  }
+
+  .navItem {
+    display: flex !important;
+    justify-content: flex-end !important;
+    flex-direction: row;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .headerImg {
-        min-height: 215px;
-        width: 150% !important;
-        background-position-x: 50%;
-        background-position-y: 50%;
-    }
-    
-    .navItem {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        padding-left: 25px ;
-    }
+  .headerImg {
+    min-height: 215px;
+    width: 150% !important;
+    background-position-x: 50%;
+    background-position-y: 50%;
+  }
+
+  .navItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 25px;
+  }
 }
