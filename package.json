@@ -1,0 +1,18 @@
+{
+  "name": "flybondi",
+  "version": "1.0.0",
+  "description": "Proyecto Final sitio web para Empresa de Vuelos (Flybondi).",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --include-path scss styles/scss/styles.scss styles/css/styles.css",
+    "watch": "nodemon -e scss -x \"npm run build\""
+  },
+  "keywords": [],
+  "author": "Martin Bockl, Lucas Ignacio",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
