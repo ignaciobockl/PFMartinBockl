@@ -1,3 +1,4 @@
+@import 'body';
 @import 'variables';
 
 * {
@@ -5,6 +6,66 @@
   padding: 0;
   background-color: $bg-color;
   color: $color-font;
+}
+
+footer > div {
+  background-color: $bg-color2 !important;
+}
+
+.footerColBg {
+  background-color: $bg-color2;
+}
+
+.footerColSobreNosotrosButton {
+  background-color: transparent;
+  border-color: $bg-color;
+  border-radius: 9999px;
+  color: $color-font3;
+  padding: 0.6rem;
+}
+
+.footerColSobreNosotrosButton > a {
+  @include linkNoAzul;
+
+  background-color: transparent;
+  color: $color-font3;
+  font-size: 1rem;
+}
+
+.footerColSobreNosotrosDescription {
+  background-color: transparent;
+  color: $color-font3;
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+.footerColSobreNosotrosDivButton {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerColSobreNosotrosTitle {
+  background-color: transparent;
+  color: $color-font3;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.footerContainer {
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+
+.headerCarouselButtonControl > span {
+  @include fondoTransparente;
+}
+
+.headerDivCarouselButtons {
+  @include fondoTransparente;
 }
 
 .headerImg {

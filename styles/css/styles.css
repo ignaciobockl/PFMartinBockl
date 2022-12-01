@@ -4,6 +4,55 @@
   background-color: #fafafa;
   color: #2f3143; }
 
+footer > div {
+  background-color: #393839 !important; }
+
+.footerColBg {
+  background-color: #393839; }
+
+.footerColSobreNosotrosButton {
+  background-color: transparent;
+  border-color: #fafafa;
+  border-radius: 9999px;
+  color: #efeff2;
+  padding: 0.6rem; }
+
+.footerColSobreNosotrosButton > a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #efeff2;
+  font-size: 1rem; }
+
+.footerColSobreNosotrosDescription {
+  background-color: transparent;
+  color: #efeff2;
+  font-size: 0.8rem;
+  text-align: justify; }
+
+.footerColSobreNosotrosDivButton {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column; }
+
+.footerColSobreNosotrosTitle {
+  background-color: transparent;
+  color: #efeff2;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left; }
+
+.footerContainer {
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem; }
+
+.headerCarouselButtonControl > span {
+  background-color: transparent; }
+
+.headerDivCarouselButtons {
+  background-color: transparent; }
+
 .headerImg {
   max-height: 450px; }
 
