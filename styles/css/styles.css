@@ -142,6 +142,38 @@ footer > div {
 .headerImg {
   max-height: 450px; }
 
+.mainContainer {
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem; }
+
+.mainColCard {
+  padding-left: 0;
+  padding-right: 0; }
+
+.mainColCardInfo {
+  align-items: center;
+  border: none;
+  display: flex;
+  flex-direction: column; }
+
+.mainColCardInfoDivDescription {
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-align: center; }
+
+.mainColCardInfoDivDescriptionA {
+  text-decoration: none;
+  color: #fdbe15; }
+
+.mainColCardInfoDivTitle {
+  font-weight: 600;
+  text-align: center; }
+
+.mainColCardInfoImg {
+  max-width: 220px; }
+
 .navContainer {
   justify-content: unset !important; }
 
