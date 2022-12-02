@@ -16,6 +16,116 @@ footer > div {
   background-color: $bg-color2;
 }
 
+.footerColCopyrightLogo {
+  background-color: $bg-color2;
+  border-top-color: $color-font3;
+  border-top-style: solid;
+  border-top-width: 1px;
+  // padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.footerColCopyrightLogoDiv {
+  background-color: transparent;
+}
+
+.footerColDivCopyright {
+  background-color: transparent;
+}
+
+.footerColCopyrightLogoDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerColDivCopyright {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerColDivCopyrightA {
+  background-color: transparent;
+  height: 32px;
+  margin-left: 10px;
+  width: 23px;
+}
+
+.footerColDivCopyrightText {
+  background-color: transparent;
+  color: $color-font3;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
+// .footerColDivLogo {
+// }
+
+// .footerColDivLogoA {
+// }
+
+.footerColDivLogoAImg {
+  height: 42px;
+  width: 139px;
+}
+
+.footerColDefensaConsumidor {
+  background-color: $bg-color2;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.footerColDefensaConsumidorDiv {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerColDefensaConsumidorIcono {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+}
+
+.footerColDefensaConsumidorText {
+  background-color: $bg-color2;
+  color: $color-font3;
+  margin-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footerColDefensaConsumidorIconoTextA {
+  @include linkNoAzul;
+
+  background-color: $bg-color2;
+  color: $color-font2;
+}
+
+.footerRedesSocialesAIcono {
+  background-color: transparent;
+}
+
+.footerRedesSocialesIcono {
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+}
+
+.footerColRedesSociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.footerColSobreNosotros {
+  padding-bottom: 15px;
+}
+
 .footerColSobreNosotrosButton {
   background-color: transparent;
   border-color: $bg-color;
