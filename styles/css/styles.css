@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #2f3143; }
+
+footer > div {
+  background-color: #393839 !important; }
+
+.footerColBg {
+  background-color: #393839;  }
+
+.footerColCopyrightLogo {
+  background-color: #393839;
+  border-top-color: #efeff2;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-top: 15px; }
+
+.footerColCopyrightLogoDiv {
+  background-color: transparent; }
+
+.footerColDivCopyright {
+  background-color: transparent; }
+
+.footerColCopyrightLogoDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.footerColDivCopyright {
+  align-items: center;
+  display: flex;
+  flex-direction: row; }
+
+.footerColDivCopyrightA {
+  background-color: transparent;
+  height: 32px;
+  margin-left: 10px;
+  width: 23px; }
+
+.footerColDivCopyrightText {
+  background-color: transparent;
+  color: #efeff2;
+  font-size: 0.75rem;
+  margin-bottom: 0; }
+
+.footerColDivLogoAImg {
+  height: 42px;
+  width: 139px; }
+
+.footerColDefensaConsumidor {
+  background-color: #393839;
+  padding-bottom: 15px;
+  padding-top: 15px; }
+
+.footerColDefensaConsumidorDiv {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row; }
+
+.footerColDefensaConsumidorIcono {
+  background-color: transparent;
+  height: 20px;
+  width: 20px; }
+
+.footerColDefensaConsumidorText {
+  background-color: #393839;
+  color: #efeff2;
+  margin-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.footerColDefensaConsumidorIconoTextA {
+  text-decoration: none;
+  background-color: #393839;
+  color: #fdbe15; }
+
+.footerRedesSocialesAIcono {
+  background-color: transparent; }
+
+.footerRedesSocialesIcono {
+  background-color: transparent;
+  height: 30px;
+  width: 30px; }
+
+.footerColRedesSociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+  padding-top: 15px; }
+
+.footerColSobreNosotros {
+  padding-bottom: 15px; }
+
+.footerColSobreNosotrosButton {
+  background-color: transparent;
+  border-color: #fafafa;
+  border-radius: 9999px;
+  color: #efeff2;
+  padding: 0.6rem; }
+
+.footerColSobreNosotrosButton > a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #efeff2;
+  font-size: 1rem; }
+
+.footerColSobreNosotrosDescription {
+  background-color: transparent;
+  color: #efeff2;
+  font-size: 0.8rem;
+  text-align: justify; }
+
+.footerColSobreNosotrosDivButton {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column; }
+
+.footerColSobreNosotrosTitle {
+  background-color: transparent;
+  color: #efeff2;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left; }
+
+.footerContainer {
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem; }
+
+.headerCarouselButtonControl > span {
+  background-color: transparent; }
+
+.headerDivCarouselButtons {
+  background-color: transparent; }
+
+.headerImg {
+  max-height: 450px; }
+
+.navContainer {
+  justify-content: unset !important; }
+
+.navDivContainer {
+  padding-left: 15px;
+  padding-right: 10px; }
+
+.navItemBandera {
+  height: 30px;
+  padding-right: 15px;
+  width: 30px; }
+
+.navLogo {
+  height: 40px;
+  width: 150px; }
+
+@media screen and (min-width: 768px) {
+  .headerImg {
+    min-height: 336px; }
+  .navItem {
+    display: flex !important;
+    justify-content: flex-end !important;
+    flex-direction: row; } }
+
+@media screen and (max-width: 768px) {
+  .headerImg {
+    min-height: 215px;
+    width: 150% !important;
+    background-position-x: 50%;
+    background-position-y: 50%; }
+  .navItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 25px; } }
