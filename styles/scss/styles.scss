@@ -92,6 +92,7 @@ footer > div {
 .footerColDefensaConsumidorText {
   background-color: $bg-color2;
   color: $color-font3;
+  font-size: 0.875rem;
   margin-bottom: 0;
   padding-left: 15px;
   padding-right: 15px;
@@ -203,7 +204,30 @@ footer > div {
   width: 150px;
 }
 
+@media screen and (min-width: 576px) {
+  .footerContainer {
+    max-width: 2500px;
+  }
+
+  .footerColDefensaConsumidor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footerColSobreNosotros {
+    padding-top: 15px;
+  }
+}
+
 @media screen and (min-width: 768px) {
+  .footerColRedesSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .headerImg {
     min-height: 336px;
   }
@@ -228,5 +252,11 @@ footer > div {
     flex-direction: row;
     justify-content: flex-start;
     padding-left: 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footerColRedesSociales {
+    justify-content: space-between;
   }
 }
