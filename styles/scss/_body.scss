@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+@mixin maxWidthContainer {
+    max-width: 2500px;
+}
+
 @mixin paddingContainer {
   padding-bottom: 2rem;
   padding-left: 2rem;

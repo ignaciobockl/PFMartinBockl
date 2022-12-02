@@ -201,7 +201,9 @@ footer > div {
     flex-direction: column;
     justify-content: center; }
   .footerColSobreNosotros {
-    padding-top: 15px; } }
+    padding-top: 15px; }
+  .mainContainer {
+    max-width: 2500px; } }
 
 @media screen and (min-width: 768px) {
   .footerColRedesSociales {
@@ -211,6 +213,11 @@ footer > div {
     align-items: center; }
   .headerImg {
     min-height: 336px; }
+  .mainColCardInfo {
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0; }
   .navItem {
     display: flex !important;
     justify-content: flex-end !important;
