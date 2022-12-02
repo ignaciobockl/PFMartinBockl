@@ -154,9 +154,12 @@ footer > div {
 
 .mainColCardInfo {
   align-items: center;
+  background-color: transparent;
   border: none;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 10px; }
 
 .mainColCardInfoDivDescription {
   font-size: 0.875rem;
