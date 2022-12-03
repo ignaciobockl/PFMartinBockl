@@ -15,10 +15,26 @@ footer > div {
   border-top-color: #efeff2;
   border-top-style: solid;
   border-top-width: 1px;
+  padding-bottom: 15px;
   padding-top: 15px; }
 
 .footerColCopyrightLogoDiv {
   background-color: transparent; }
+
+.footerColDesarrolladorText {
+  background-color: transparent;
+  color: #efeff2;
+  font-size: 0.85rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  text-align: center; }
+
+.footerColDesarrolladorTextA {
+  text-decoration: none;
+  background-color: transparent;
+  color: #efeff2; }
+  .footerColDesarrolladorTextA :hover {
+    color: #fdbe15 !important; }
 
 .footerColDivCopyright {
   background-color: transparent; }
@@ -119,6 +135,9 @@ footer > div {
   background-color: transparent;
   display: flex;
   flex-direction: column; }
+  .footerColSobreNosotrosDivButton :hover {
+    background-color: #ffba00;
+    font-weight: bold; }
 
 .footerColSobreNosotrosTitle {
   background-color: transparent;
