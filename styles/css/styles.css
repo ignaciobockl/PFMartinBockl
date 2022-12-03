@@ -68,6 +68,7 @@ footer > div {
 .footerColDefensaConsumidorText {
   background-color: #393839;
   color: #efeff2;
+  font-size: 0.875rem;
   margin-bottom: 0;
   padding-left: 15px;
   padding-right: 15px; }
@@ -141,6 +142,155 @@ footer > div {
 .headerImg {
   max-height: 450px; }
 
+.mainContainer {
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem; }
+
+.mainColCard {
+  padding-left: 0;
+  padding-right: 0; }
+
+.mainColCardEmpresa {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.mainColCardEmpresaA {
+  width: 100%; }
+  .mainColCardEmpresaA :hover {
+    background-color: #ffba00;
+    font-weight: bold; }
+
+.mainColCardEmpresaAButton {
+  background-color: #fdbe15;
+  border: none;
+  border-radius: 999px;
+  color: #2f3143;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+  text-align: center;
+  line-height: 18px;
+  width: 100%; }
+
+.mainColCardEmpresaAnuncioSubTitle {
+  color: #2f3143;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem; }
+
+.mainColCardEmpresaAnuncioTitle {
+  color: #2f3143;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  text-align: left; }
+
+.mainColCardEmpresaBody {
+  border: none;
+  width: 40%; }
+
+.mainColCardEmpresaDivButton {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.mainColCardEmpresaDivDescription {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 17px;
+  margin-top: 0.25rem; }
+
+.mainColCardEmpresaDivTitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 0; }
+
+.mainColCardEmpresaDivImg {
+  max-height: 81px;
+  max-width: 92px; }
+
+.mainColCardEmpresaHeader {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  width: 60%; }
+
+.mainColCardInfo {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.mainColCardInfoDivDescription {
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-align: center; }
+
+.mainColCardInfoDivDescriptionA {
+  text-decoration: none;
+  color: #fdbe15; }
+
+.mainColCardInfoDivTitle {
+  font-weight: 600;
+  text-align: center; }
+
+.mainColCardInfoImg {
+  max-width: 220px; }
+
+.mainColCardServiciosAnuncioSubTitle {
+  color: #2f3143;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem; }
+
+.mainColCardServiciosAnuncioTitle {
+  color: #2f3143;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  text-align: left; }
+
+.mainColCardServiciosBanner {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem; }
+
+.mainColCardServiciosBannerAImg {
+  height: 10rem;
+  width: 100%; }
+
+.mainRowEmpresa {
+  padding-bottom: 2rem; }
+
+.mainRowServicios {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem; }
+
 .navContainer {
   justify-content: unset !important; }
 
@@ -157,9 +307,101 @@ footer > div {
   height: 40px;
   width: 150px; }
 
+@media screen and (min-width: 400px) {
+  .mainColCardServiciosBannerAImg {
+    height: 11rem; } }
+
+@media screen and (max-width: 450px) {
+  .mainColCardEmpresaBody {
+    width: 50%; }
+  .mainColCardEmpresaDivTitle {
+    font-size: 1.15rem; }
+  .mainColCardEmpresaHeader {
+    width: 50%; } }
+
+@media screen and (min-width: 450px) {
+  .mainColCardEmpresaAnuncio {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .mainColCardEmpresaAnuncioSubTitle {
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 66.666%; }
+  .mainColCardEmpresaAnuncioTitle {
+    text-align: center;
+    width: 90%; }
+  .mainColCardEmpresaHeader {
+    width: 45%; }
+  .mainColCardEmpresaBody {
+    width: 55%; }
+  .mainColCardServiciosBannerAImg {
+    height: 12.5rem; } }
+
+@media screen and (min-width: 500px) {
+  .mainColCardServiciosBannerAImg {
+    height: 14rem; } }
+
+@media screen and (min-width: 550px) {
+  .mainColCardServiciosBannerAImg {
+    height: 15.5rem; } }
+
+@media screen and (min-width: 576px) {
+  .footerContainer {
+    max-width: 2500px; }
+  .footerColDefensaConsumidor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .footerColSobreNosotros {
+    padding-top: 15px; }
+  .mainColCardServiciosAnuncioSubTitle {
+    text-align: center; }
+  .mainColCardServiciosAnuncioTitle {
+    font-size: 1.75rem;
+    margin-bottom: 0.6rem;
+    text-align: center; }
+  .mainColCardServiciosBanner {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem; }
+  .mainColCardServiciosBannerAImg {
+    min-height: 272px; }
+  .mainContainer {
+    max-width: 2500px; } }
+
+@media screen and (min-width: 600px) {
+  .mainColCardEmpresaA {
+    width: 85% !important; } }
+
+@media screen and (min-width: 700px) {
+  .mainColCardEmpresaA {
+    width: 75% !important; } }
+
 @media screen and (min-width: 768px) {
+  .footerColRedesSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
   .headerImg {
     min-height: 336px; }
+  .mainColCardEmpresaA {
+    width: 65% !important; }
+  .mainColCardEmpresaBody {
+    width: 42.5%; }
+  .mainColCardEmpresaHeader {
+    width: 57.5%; }
+  .mainColCardInfo {
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0; }
+  .mainColCardServiciosBannerAImg {
+    min-height: 248px; }
+  .mainContainer {
+    padding-top: 3rem; }
   .navItem {
     display: flex !important;
     justify-content: flex-end !important;
@@ -176,3 +418,36 @@ footer > div {
     flex-direction: row;
     justify-content: flex-start;
     padding-left: 25px; } }
+
+@media screen and (min-width: 992px) {
+  .footerColRedesSociales {
+    justify-content: space-between; }
+  .mainColCardEmpresa {
+    align-items: center;
+    display: flex;
+    flex-direction: column; }
+  .mainColCardEmpresaA {
+    width: 55% !important; }
+  .mainColCardEmpresaBody {
+    width: 90%; }
+  .mainColCardEmpresaDivDescription {
+    text-align: center; }
+  .mainColCardEmpresaDivTitle {
+    text-align: center; }
+  .mainColCardServiciosAnuncioTitle {
+    margin-bottom: 0.4rem; }
+  .mainColCardServiciosBannerAImg {
+    min-height: 312px; }
+  .mainContainer {
+    padding-top: 4rem;
+    width: 90%; } }
+
+@media screen and (min-width: 1200px) {
+  .mainColCardEmpresaA {
+    width: 45% !important; }
+  .mainContainer {
+    width: 80%; } }
+
+@media screen and (min-width: 1400px) {
+  .mainColCardEmpresaA {
+    width: 40% !important; } }

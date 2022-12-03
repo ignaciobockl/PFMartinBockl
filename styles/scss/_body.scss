@@ -1,7 +1,18 @@
 @mixin fondoTransparente {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 @mixin linkNoAzul {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+@mixin maxWidthContainer {
+  max-width: 2500px;
+}
+
+@mixin paddingContainer {
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
 }
