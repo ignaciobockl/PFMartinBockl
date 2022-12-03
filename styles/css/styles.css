@@ -161,6 +161,20 @@ footer > div {
   margin-bottom: 10px;
   margin-top: 10px; }
 
+.mainColCardEmpresaAButton {
+  background-color: #fdbe15;
+  border: none;
+  border-radius: 999px;
+  color: #2f3143;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+  text-align: center;
+  line-height: 18px; }
+
 .mainColCardEmpresaBody {
   border: none;
   width: 40%; }
