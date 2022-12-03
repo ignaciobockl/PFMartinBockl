@@ -177,6 +177,32 @@ footer > div {
 .mainColCardInfoImg {
   max-width: 220px; }
 
+.mainColCardServiciosAnuncioSubTitle {
+  color: #2f3143;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem; }
+
+.mainColCardServiciosAnuncioTitle {
+  color: #2f3143;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
+  text-align: left; }
+
+.mainColCardServiciosBanner {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem; }
+
+.mainColCardServiciosBannerAImg {
+  height: 10rem;
+  width: 100%; }
+
+.mainRowServicios {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
 .navContainer {
   justify-content: unset !important; }
 

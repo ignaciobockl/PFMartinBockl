@@ -181,47 +181,83 @@ footer > div {
 }
 
 .mainContainer {
-    @include paddingContainer;
+  @include paddingContainer;
 }
 
 .mainColCard {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .mainColCardInfo {
-    align-items: center;
-    background-color: transparent;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .mainColCardInfoDiv {
-
 }
 
 .mainColCardInfoDivDescription {
-    font-size: 0.875rem;
-    font-weight: 300;
-    text-align: center;
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-align: center;
 }
 
 .mainColCardInfoDivDescriptionA {
-    @include linkNoAzul;
+  @include linkNoAzul;
 
-    color: $color-font2;
+  color: $color-font2;
 }
 
 .mainColCardInfoDivTitle {
-    font-weight: 600;
-    text-align: center;
+  font-weight: 600;
+  text-align: center;
 }
 
 .mainColCardInfoImg {
-    max-width: 220px;
+  max-width: 220px;
+}
+
+.mainColCardServiciosAnuncio {
+}
+
+.mainColCardServiciosAnuncioSubTitle {
+  color: $color-font;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.mainColCardServiciosAnuncioTitle {
+  color: $color-font;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.mainColCardServiciosBanner {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.mainColCardServiciosBannerA {
+}
+
+.mainColCardServiciosBannerAImg {
+  height: 10rem;
+  width: 100%;
+}
+
+.mainRowServicios {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .navContainer {
