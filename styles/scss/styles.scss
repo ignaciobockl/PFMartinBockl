@@ -490,15 +490,15 @@ footer > div {
 }
 
 @media screen and (min-width: 600px) {
-    .mainColCardEmpresaA {
-        width: 85% !important;
-    }
+  .mainColCardEmpresaA {
+    width: 85% !important;
+  }
 }
 
 @media screen and (min-width: 700px) {
-    .mainColCardEmpresaA {
-        width: 75% !important;
-    }
+  .mainColCardEmpresaA {
+    width: 75% !important;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -515,7 +515,7 @@ footer > div {
 
   .mainColCardEmpresaA {
     width: 65% !important;
-}
+  }
 
   .mainColCardEmpresaBody {
     width: 42.5%;
@@ -569,14 +569,14 @@ footer > div {
   }
 
   .mainColCardEmpresa {
-      align-items: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
   }
 
   .mainColCardEmpresaA {
     width: 55% !important;
-}
+  }
 
   .mainColCardEmpresaBody {
     width: 90%;
@@ -605,17 +605,17 @@ footer > div {
 }
 
 @media screen and (min-width: 1200px) {
-    .mainColCardEmpresaA {
-        width: 45% !important;
-    }
-  
-    .mainContainer {
+  .mainColCardEmpresaA {
+    width: 45% !important;
+  }
+
+  .mainContainer {
     width: 80%;
   }
 }
 
 @media screen and (min-width: 1400px) {
-    .mainColCardEmpresaA {
-        width: 40% !important;
-    }
+  .mainColCardEmpresaA {
+    width: 40% !important;
+  }
 }
