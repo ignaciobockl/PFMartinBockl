@@ -190,7 +190,7 @@ footer > div {
 }
 
 .mainColCardEmpresa {
-    align-items: center;
+  align-items: center;
   background-color: transparent;
   border: none;
   display: flex;
@@ -200,57 +200,56 @@ footer > div {
 }
 
 .mainColCardEmpresaA {
-    
 }
 
 .mainColCardEmpresaAButton {
-    background-color: $bg-color3;
-    border: none;
-    border-radius: 999px;
-    color: $color-font;
-    font-size: 1rem;
-    font-weight: 400;
-    padding-bottom: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-top: 1rem;
-    text-align: center;
-    line-height: 18px;
+  background-color: $bg-color3;
+  border: none;
+  border-radius: 999px;
+  color: $color-font;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+  text-align: center;
+  line-height: 18px;
 }
 
 .mainColCardEmpresaBody {
-    border: none;
-    width: 40%;
+  border: none;
+  width: 40%;
 }
 
 .mainColCardEmpresaDivDescription {
-    font-size: 0.875rem;
-    font-weight: 300;
-    line-height: 17px;
-    margin-top: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 17px;
+  margin-top: 0.25rem;
 }
 
 .mainColCardEmpresaDivTitle {
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 20px;
-    margin-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 0;
 }
 
 .mainColCardEmpresaDivImg {
-    max-height: 81px;
-    max-width: 92px;
-    // min-height: 80px;
-    // min-width: 91px;
+  max-height: 81px;
+  max-width: 92px;
+  // min-height: 80px;
+  // min-width: 91px;
 }
 
 .mainColCardEmpresaHeader {
-    align-items: center;
-    background-color:transparent;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
 
 .mainColCardInfo {
@@ -353,18 +352,17 @@ footer > div {
 }
 
 @media screen and (max-width: 450px) {
-    .mainColCardEmpresaBody {
-        width:50%;
-    }
+  .mainColCardEmpresaBody {
+    width: 50%;
+  }
 
-    .mainColCardEmpresaDivTitle {
-        font-size: 1.15rem;
-    }
+  .mainColCardEmpresaDivTitle {
+    font-size: 1.15rem;
+  }
 
-    .mainColCardEmpresaHeader {
-        width:50%;
-
-    }
+  .mainColCardEmpresaHeader {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 450px) {
