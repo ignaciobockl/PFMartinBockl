@@ -237,7 +237,7 @@ footer > div {
   color: $color-font;
   font-size: 1.75rem;
   font-weight: 600;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   margin-top: 3rem;
   text-align: left;
 }
@@ -283,27 +283,27 @@ footer > div {
 }
 
 @media screen and (min-width: 400px) {
-    .mainColCardServiciosBannerAImg {
-        height: 11rem;
-    }
+  .mainColCardServiciosBannerAImg {
+    height: 11rem;
+  }
 }
 
 @media screen and (min-width: 450px) {
-    .mainColCardServiciosBannerAImg {
-        height: 12.5rem;
-    }
+  .mainColCardServiciosBannerAImg {
+    height: 12.5rem;
+  }
 }
 
 @media screen and (min-width: 500px) {
-    .mainColCardServiciosBannerAImg {
-        height: 14rem;
-    }
+  .mainColCardServiciosBannerAImg {
+    height: 14rem;
+  }
 }
 
 @media screen and (min-width: 550px) {
-    .mainColCardServiciosBannerAImg {
-        height: 15.5rem;
-    }
+  .mainColCardServiciosBannerAImg {
+    height: 15.5rem;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -321,8 +321,14 @@ footer > div {
     padding-top: 15px;
   }
 
-  .mainContainer {
-    @include maxWidthContainer;
+  .mainColCardServiciosAnuncioSubTitle {
+    text-align: center;
+  }
+
+  .mainColCardServiciosAnuncioTitle {
+    font-size: 1.75rem;
+    margin-bottom: 0.6rem;
+    text-align: center;
   }
 
   .mainColCardServiciosBanner {
@@ -332,6 +338,10 @@ footer > div {
 
   .mainColCardServiciosBannerAImg {
     min-height: 272px;
+  }
+
+  .mainContainer {
+    @include maxWidthContainer;
   }
 }
 
@@ -356,6 +366,10 @@ footer > div {
 
   .mainColCardServiciosBannerAImg {
     min-height: 248px;
+  }
+
+  .mainContainer {
+    padding-top: 3rem;
   }
 
   .navItem {
@@ -384,5 +398,24 @@ footer > div {
 @media screen and (min-width: 992px) {
   .footerColRedesSociales {
     justify-content: space-between;
+  }
+
+  .mainColCardServiciosAnuncioTitle {
+    margin-bottom: 0.4rem;
+  }
+
+  .mainColCardServiciosBannerAImg {
+    min-height: 312px;
+  }
+
+  .mainContainer {
+    padding-top: 4rem;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mainContainer {
+    width: 80%;
   }
 }
