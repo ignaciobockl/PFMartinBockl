@@ -347,6 +347,89 @@ footer > div {
   max-width: 220px;
 }
 
+.mainColCardInfoUtil {
+  background-color: $bg-color4;
+  border: none;
+}
+
+.mainColCardInfoUtilAnuncio {
+}
+
+.mainColCardInfoUtilAnuncioSubTitle {
+  color: $color-font;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.mainColCardInfoUtilAnuncioTitle {
+  color: $color-font;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.mainColCardInfoUtilDivBody {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mainColCardInfoUtilDivBodyDiv {
+  background-color: transparent;
+  padding: 15px;
+  width: 35%;
+}
+
+.mainColCardInfoUtilDivBodyDivImg {
+  background-color: transparent;
+  max-width: 100%;
+}
+
+.mainColCardInfoUtilDivBodyDivText {
+  background-color: transparent;
+  padding: 0;
+  width: 65%;
+}
+
+.mainColCardInfoUtilDivBodyDivTextP {
+  background-color: transparent;
+  font-size: 0.875rem;
+  line-height: 17px;
+  margin-bottom: 0;
+}
+
+.mainColCardInfoUtilDivFooter {
+  background-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.mainColCardInfoUtilDivFooterText {
+  background-color: transparent;
+  color: $color-font2;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.mainColCardInfoUtilDivHeader {
+  background-color: transparent;
+  margin-top: 0.5rem;
+}
+
+.mainColCardInfoUtilDivHeaderTitle {
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: center;
+}
+
 .mainColCardServiciosAnuncio {
 }
 
@@ -380,6 +463,12 @@ footer > div {
 }
 
 .mainRowEmpresa {
+  padding-bottom: 2rem;
+}
+
+.mainRowInfoUtil {
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: 2rem;
 }
 
