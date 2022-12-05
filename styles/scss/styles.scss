@@ -352,6 +352,13 @@ footer > div {
   border: none;
 }
 
+.mainColCardInfoUtilContainer {
+  display: grid;
+  margin-bottom: 0.5rem;
+  max-height: 182px !important;
+  min-height: 181.5px !important;
+}
+
 .mainColCardInfoUtilAnuncio {
 }
 
@@ -389,6 +396,7 @@ footer > div {
 .mainColCardInfoUtilDivBodyDivImg {
   background-color: transparent;
   max-width: 100%;
+  height: auto;
 }
 
 .mainColCardInfoUtilDivBodyDivText {
