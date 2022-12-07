@@ -686,6 +686,11 @@ footer > div {
     min-height: 272px;
   }
 
+  .mainColCardUltraPase {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .mainContainer {
     @include maxWidthContainer;
   }

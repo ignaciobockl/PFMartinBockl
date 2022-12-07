@@ -518,6 +518,9 @@ footer > div {
     padding-right: 0.25rem; }
   .mainColCardServiciosBannerAImg {
     min-height: 272px; }
+  .mainColCardUltraPase {
+    margin-left: 1rem;
+    margin-right: 1rem; }
   .mainContainer {
     max-width: 2500px; } }
 
