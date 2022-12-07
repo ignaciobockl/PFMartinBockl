@@ -15,10 +15,26 @@ footer > div {
   border-top-color: #efeff2;
   border-top-style: solid;
   border-top-width: 1px;
+  padding-bottom: 15px;
   padding-top: 15px; }
 
 .footerColCopyrightLogoDiv {
   background-color: transparent; }
+
+.footerColDesarrolladorText {
+  background-color: transparent;
+  color: #efeff2;
+  font-size: 0.85rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  text-align: center; }
+
+.footerColDesarrolladorTextA {
+  text-decoration: none;
+  background-color: transparent;
+  color: #efeff2; }
+  .footerColDesarrolladorTextA :hover {
+    color: #fdbe15 !important; }
 
 .footerColDivCopyright {
   background-color: transparent; }
@@ -37,7 +53,7 @@ footer > div {
   background-color: transparent;
   height: 32px;
   margin-left: 10px;
-  width: 23px; }
+  width: 23px;  }
 
 .footerColDivCopyrightText {
   background-color: transparent;
@@ -119,6 +135,9 @@ footer > div {
   background-color: transparent;
   display: flex;
   flex-direction: column; }
+  .footerColSobreNosotrosDivButton :hover {
+    background-color: #ffba00;
+    font-weight: bold; }
 
 .footerColSobreNosotrosTitle {
   background-color: transparent;
@@ -261,6 +280,81 @@ footer > div {
 .mainColCardInfoImg {
   max-width: 220px; }
 
+.mainColCardInfoUtil {
+  background-color: #f4f4f4;
+  border: none; }
+
+.mainColCardInfoUtilContainer {
+  display: grid;
+  margin-bottom: 0.5rem;
+  max-height: 190px !important;
+  min-height: 181.5px !important; }
+
+.mainColCardInfoUtilAnuncioSubTitle {
+  color: #2f3143;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem; }
+
+.mainColCardInfoUtilAnuncioTitle {
+  color: #2f3143;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  text-align: left; }
+
+.mainColCardInfoUtilDivBody {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.mainColCardInfoUtilDivBodyDiv {
+  background-color: transparent;
+  padding: 15px;
+  width: 35%; }
+
+.mainColCardInfoUtilDivBodyDivImg {
+  background-color: transparent;
+  max-width: 100%;
+  height: auto; }
+
+.mainColCardInfoUtilDivBodyDivText {
+  background-color: transparent;
+  padding: 0;
+  width: 65%; }
+
+.mainColCardInfoUtilDivBodyDivTextP {
+  background-color: transparent;
+  font-size: 0.875rem;
+  line-height: 17px;
+  margin-bottom: 0; }
+
+.mainColCardInfoUtilDivFooter {
+  background-color: transparent;
+  margin-bottom: 0.5rem; }
+
+.mainColCardInfoUtilDivFooterText {
+  background-color: transparent;
+  color: #fdbe15;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+  text-align: center; }
+
+.mainColCardInfoUtilDivHeader {
+  background-color: transparent;
+  margin-top: 0.5rem; }
+
+.mainColCardInfoUtilDivHeaderTitle {
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: center; }
+
 .mainColCardServiciosAnuncioSubTitle {
   color: #2f3143;
   font-size: 1rem;
@@ -286,6 +380,11 @@ footer > div {
 .mainRowEmpresa {
   padding-bottom: 2rem; }
 
+.mainRowInfoUtil {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem; }
+
 .mainRowServicios {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -308,6 +407,21 @@ footer > div {
   width: 150px; }
 
 @media screen and (min-width: 400px) {
+  .mainColCardInfoUtilDivBodyDivImg1 {
+    height: 68px;
+    width: 64px; }
+  .mainColCardInfoUtilDivBodyDivImg2 {
+    height: 75px;
+    width: 57px; }
+  .mainColCardInfoUtilDivBodyDivImg3 {
+    height: 73.5px;
+    width: 64px; }
+  .mainColCardInfoUtilDivBodyDivImg4 {
+    height: 63px;
+    width: 64px; }
+  .mainColCardInfoUtilDivBodyDivImg5 {
+    height: 42px;
+    width: 64px; }
   .mainColCardServiciosBannerAImg {
     height: 11rem; } }
 
@@ -337,10 +451,18 @@ footer > div {
     width: 45%; }
   .mainColCardEmpresaBody {
     width: 55%; }
+  .mainColCardInfoUtilContainer {
+    max-height: 178px !important;
+    min-height: 177px !important; }
+  .mainColCardInfoUtilDivBodyDiv {
+    text-align: center; }
   .mainColCardServiciosBannerAImg {
     height: 12.5rem; } }
 
 @media screen and (min-width: 500px) {
+  .mainColCardInfoUtilContainer {
+    max-height: 168px !important;
+    min-height: 167px !important; }
   .mainColCardServiciosBannerAImg {
     height: 14rem; } }
 
@@ -357,6 +479,16 @@ footer > div {
     justify-content: center; }
   .footerColSobreNosotros {
     padding-top: 15px; }
+  .mainColCardInfoUtilContainer {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    max-height: 245px !important;
+    min-height: 244px !important; }
+  .mainColCardInfoUtilAnuncioSubTitle {
+    text-align: center; }
+  .mainColCardInfoUtilAnuncioTitle {
+    text-align: center; }
   .mainColCardServiciosAnuncioSubTitle {
     text-align: center; }
   .mainColCardServiciosAnuncioTitle {
@@ -374,6 +506,11 @@ footer > div {
 @media screen and (min-width: 600px) {
   .mainColCardEmpresaA {
     width: 85% !important; } }
+
+@media screen and (min-width: 650px) {
+  .mainColCardInfoUtilContainer {
+    max-height: 225px !important;
+    min-height: 224px !important; } }
 
 @media screen and (min-width: 700px) {
   .mainColCardEmpresaA {
@@ -398,6 +535,9 @@ footer > div {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 0; }
+  .mainColCardInfoUtilContainer {
+    max-height: 185px !important;
+    min-height: 184px !important; }
   .mainColCardServiciosBannerAImg {
     min-height: 248px; }
   .mainContainer {
@@ -419,6 +559,11 @@ footer > div {
     justify-content: flex-start;
     padding-left: 25px; } }
 
+@media screen and (min-width: 900px) {
+  .mainColCardInfoUtilContainer {
+    max-height: 168px !important;
+    min-height: 167px !important; } }
+
 @media screen and (min-width: 992px) {
   .footerColRedesSociales {
     justify-content: space-between; }
@@ -434,6 +579,10 @@ footer > div {
     text-align: center; }
   .mainColCardEmpresaDivTitle {
     text-align: center; }
+  .mainColCardInfoUtilContainer {
+    max-height: 253px !important;
+    min-height: 252px !important;
+    padding: 10px; }
   .mainColCardServiciosAnuncioTitle {
     margin-bottom: 0.4rem; }
   .mainColCardServiciosBannerAImg {
@@ -442,12 +591,23 @@ footer > div {
     padding-top: 4rem;
     width: 90%; } }
 
+@media screen and (min-width: 1100px) {
+  .mainColCardInfoUtilContainer {
+    max-height: 215px !important;
+    min-height: 214px !important; } }
+
 @media screen and (min-width: 1200px) {
   .mainColCardEmpresaA {
     width: 45% !important; }
   .mainContainer {
-    width: 80%; } }
+    width: 80%; }
+  .mainColCardInfoUtilContainer {
+    max-height: 230px !important;
+    min-height: 229px !important; } }
 
 @media screen and (min-width: 1400px) {
   .mainColCardEmpresaA {
-    width: 40% !important; } }
+    width: 40% !important; }
+  .mainColCardInfoUtilContainer {
+    max-height: 195px !important;
+    min-height: 194px !important; } }
