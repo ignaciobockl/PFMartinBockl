@@ -626,6 +626,22 @@ footer > div {
     padding-top: 15px;
   }
 
+  .mainColCardInfoUtilContainer {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    max-height: 245px !important;
+    min-height: 244px !important;
+  }
+
+  .mainColCardInfoUtilAnuncioSubTitle {
+    text-align: center;
+  }
+
+  .mainColCardInfoUtilAnuncioTitle {
+    text-align: center;
+  }
+
   .mainColCardServiciosAnuncioSubTitle {
     text-align: center;
   }
@@ -653,6 +669,13 @@ footer > div {
 @media screen and (min-width: 600px) {
   .mainColCardEmpresaA {
     width: 85% !important;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .mainColCardInfoUtilContainer {
+    max-height: 225px !important;
+    min-height: 224px !important;
   }
 }
 
@@ -693,6 +716,11 @@ footer > div {
     margin-top: 0;
   }
 
+  .mainColCardInfoUtilContainer {
+    max-height: 185px !important;
+    min-height: 184px !important;
+  }
+
   .mainColCardServiciosBannerAImg {
     min-height: 248px;
   }
@@ -724,6 +752,13 @@ footer > div {
   }
 }
 
+@media screen and (min-width: 900px) {
+  .mainColCardInfoUtilContainer {
+    max-height: 168px !important;
+    min-height: 167px !important;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .footerColRedesSociales {
     justify-content: space-between;
@@ -751,6 +786,13 @@ footer > div {
     text-align: center;
   }
 
+  .mainColCardInfoUtilContainer {
+    max-height: 253px !important;
+    min-height: 252px !important;
+
+    padding: 10px;
+  }
+
   .mainColCardServiciosAnuncioTitle {
     margin-bottom: 0.4rem;
   }
@@ -765,6 +807,13 @@ footer > div {
   }
 }
 
+@media screen and (min-width: 1100px) {
+  .mainColCardInfoUtilContainer {
+    max-height: 215px !important;
+    min-height: 214px !important;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .mainColCardEmpresaA {
     width: 45% !important;
@@ -773,10 +822,20 @@ footer > div {
   .mainContainer {
     width: 80%;
   }
+
+  .mainColCardInfoUtilContainer {
+    max-height: 230px !important;
+    min-height: 229px !important;
+  }
 }
 
 @media screen and (min-width: 1400px) {
   .mainColCardEmpresaA {
     width: 40% !important;
+  }
+
+  .mainColCardInfoUtilContainer {
+    max-height: 195px !important;
+    min-height: 194px !important;
   }
 }
