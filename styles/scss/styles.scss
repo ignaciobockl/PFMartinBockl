@@ -8,6 +8,10 @@
   color: $color-font;
 }
 
+// .bodyUltraPase {
+//   background-color: $bg-color;
+// }
+
 footer > div {
   background-color: $bg-color2 !important;
 }
@@ -468,6 +472,27 @@ footer > div {
 .mainColCardServiciosBannerAImg {
   height: 10rem;
   width: 100%;
+}
+
+.mainColCardUltraPase {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.mainColCardUltraPaseDivBodyText {
+  font-size: 1rem;
+  line-height: 1.15;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.mainColCardUltraPaseDivHeaderImg {
+  height: 6rem;
+  width: 6rem;
 }
 
 .mainRowEmpresa {
