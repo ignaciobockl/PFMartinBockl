@@ -171,6 +171,22 @@ footer > div {
   padding-left: 0;
   padding-right: 0; }
 
+.mainColCardClubBody {
+  padding-bottom: 1rem; }
+
+.mainColCardClubBodyImg {
+  max-width: 100%; }
+
+.mainColCardClubHeaderSubTitle {
+  font-size: 1.1rem;
+  line-height: 1.15; }
+
+.mainColCardClubHeaderTitle {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 1rem; }
+
 .mainColCardEmpresa {
   align-items: center;
   background-color: transparent;
