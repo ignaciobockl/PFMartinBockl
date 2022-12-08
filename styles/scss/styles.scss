@@ -201,6 +201,27 @@ footer > div {
   @include fondoTransparente;
 }
 
+.headerConocenosDiv {
+}
+
+.headerConocenosDivSubTitle {
+  color: $color-font5;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.headerConocenosDivTitle {
+  color: $color-font2 !important;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  text-align: center;
+}
+
 .headerDivCarouselButtons {
   @include fondoTransparente;
 }
@@ -851,6 +872,14 @@ footer > div {
 @media screen and (min-width: 992px) {
   .footerColRedesSociales {
     justify-content: space-between;
+  }
+
+  .headerConocenosDivSubTitle {
+    margin-bottom: 2rem;
+  }
+
+  .headerConocenosDivTitle {
+    margin-top: 2rem;
   }
 
   .mainColCardEmpresa {
