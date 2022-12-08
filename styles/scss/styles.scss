@@ -490,7 +490,27 @@ footer > div {
   text-align: center;
 }
 
+.mainColCardClubDivBodyText {
+  color: $color-font4;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1rem !important;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.mainColCardUltraPaseDivBodyTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
 .mainColCardUltraPaseDivHeaderImg {
+  height: 6rem;
+  width: 6rem;
+}
+
+.mainColCardClubDivHeaderImg {
   height: 6rem;
   width: 6rem;
 }
