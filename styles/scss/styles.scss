@@ -231,7 +231,7 @@ footer > div {
   line-height: 1.15;
 }
 
-.mainColCardClubHeaderTitle{
+.mainColCardClubHeaderTitle {
   font-size: 2.25rem;
   font-weight: bold;
   line-height: 1.15;
@@ -767,6 +767,10 @@ footer > div {
     min-height: 336px;
   }
 
+  .mainColCardClubBody {
+    padding-bottom: 0;
+  }
+
   .mainColCardEmpresaA {
     width: 65% !important;
   }
@@ -803,6 +807,21 @@ footer > div {
     display: flex !important;
     justify-content: flex-end !important;
     flex-direction: row;
+  }
+
+  .rowCardsClub {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .rowCardsClubBanner {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
   }
 }
 
@@ -896,6 +915,10 @@ footer > div {
   .mainColCardInfoUtilContainer {
     max-height: 230px !important;
     min-height: 229px !important;
+  }
+
+  .rowCardsClubBanner {
+    margin-top: 3rem;
   }
 }
 

@@ -578,6 +578,8 @@ footer > div {
     align-items: center; }
   .headerImg {
     min-height: 336px; }
+  .mainColCardClubBody {
+    padding-bottom: 0; }
   .mainColCardEmpresaA {
     width: 65% !important; }
   .mainColCardEmpresaBody {
@@ -599,7 +601,18 @@ footer > div {
   .navItem {
     display: flex !important;
     justify-content: flex-end !important;
-    flex-direction: row; } }
+    flex-direction: row; }
+  .rowCardsClub {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .rowCardsClubBanner {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem; } }
 
 @media screen and (max-width: 768px) {
   .headerImg {
@@ -657,7 +670,9 @@ footer > div {
     width: 80%; }
   .mainColCardInfoUtilContainer {
     max-height: 230px !important;
-    min-height: 229px !important; } }
+    min-height: 229px !important; }
+  .rowCardsClubBanner {
+    margin-top: 3rem; } }
 
 @media screen and (min-width: 1400px) {
   .mainColCardEmpresaA {
