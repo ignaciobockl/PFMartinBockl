@@ -456,6 +456,12 @@ footer > div {
   height: 6rem;
   width: 6rem; }
 
+.mainConocenosBody {
+  padding: 1rem; }
+
+.mainConocenosBodyImg {
+  width: 100%; }
+
 .mainConocenosHeader {
   background-color: #ffffff;
   padding: 1rem; }
