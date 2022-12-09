@@ -456,6 +456,40 @@ footer > div {
   height: 6rem;
   width: 6rem; }
 
+.mainConocenosHeader {
+  background-color: #ffffff;
+  padding: 1rem; }
+
+.mainConocenosHeaderSubTitle {
+  background-color: #ffffff;
+  font-size: 1rem;
+  font-weight: bolder;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.mainConocenosHeaderText {
+  background-color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.mainConocenosHeaderTitleH2 {
+  background-color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.15; }
+
+.mainConocenosHeaderTitleH3 {
+  background-color: #ffffff;
+  font-size: 1.17rem;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-decoration: underline; }
+
 .mainRowEmpresa {
   padding-bottom: 2rem; }
 

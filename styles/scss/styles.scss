@@ -208,7 +208,6 @@ footer > div {
 
 .headerConocenosDiv {
   background-color: $bg-color5;
-
 }
 
 .headerConocenosDivSubTitle {
@@ -563,6 +562,45 @@ footer > div {
 .mainColCardClubDivHeaderImg {
   height: 6rem;
   width: 6rem;
+}
+
+.mainConocenosHeader {
+  background-color: $bg-color5;
+  padding: 1rem;
+}
+
+.mainConocenosHeaderSubTitle {
+  background-color: $bg-color5;
+  font-size: 1rem;
+  font-weight: bolder;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.mainConocenosHeaderText {
+  background-color: $bg-color5;
+  font-size: 1rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.mainConocenosHeaderTitleH2 {
+  background-color: $bg-color5;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.mainConocenosHeaderTitleH3 {
+  background-color: $bg-color5;
+  font-size: 1.17rem;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-decoration: underline;
 }
 
 .mainRowEmpresa {
