@@ -399,6 +399,14 @@ footer > div {
   margin-bottom: 0;
   text-align: center; }
 
+.mainColCardServiciosAdicionalesDivBodyTitle {
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.mainColCardServiciosAdicionalesDivHeaderImg {
+  height: 84px;
+  width: 220px; }
+
 .mainColCardServiciosAnuncioSubTitle {
   color: #2f3143;
   font-size: 1rem;
@@ -455,6 +463,20 @@ footer > div {
 .mainColCardClubDivHeaderImg {
   height: 6rem;
   width: 6rem; }
+
+.mainColServicios {
+  margin-bottom: 2rem; }
+
+.mainColServiciosH1Title {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.15;
+  text-align: center; }
+
+.mainColServiciosPSubTitle {
+  font-size: 1rem;
+  line-height: 1.15;
+  text-align: center; }
 
 .mainConocenosBody {
   background-color: #ffffff;
