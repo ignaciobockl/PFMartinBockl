@@ -722,6 +722,13 @@ footer > div {
     margin-bottom: 0.4rem; }
   .mainColCardServiciosBannerAImg {
     min-height: 312px; }
+  .mainConocenos {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column; }
+  .mainConocenosHeader {
+    width: 80%; }
   .mainContainer {
     padding-top: 4rem;
     width: 90%; } }
