@@ -462,6 +462,29 @@ footer > div {
 .mainConocenosBodyImg {
   width: 100%; }
 
+.mainConocenosFooter {
+  padding: 1rem; }
+
+.mainConocenosFooterH1Title {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-decoration: underline; }
+
+.mainConocenosFooterH3Title {
+  font-size: 1.17rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.mainConocenosFooterText {
+  font-size: 1rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
 .mainConocenosHeader {
   background-color: #ffffff;
   padding: 1rem; }

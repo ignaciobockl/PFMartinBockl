@@ -572,6 +572,36 @@ footer > div {
   width: 100%;
 }
 
+.mainConocenosFooter {
+  padding: 1rem;
+}
+
+.mainConocenosFooterH1Title {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-decoration: underline;
+}
+
+.mainConocenosFooterH3Title {
+  font-size: 1.17rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.mainConocenosFooterText {
+  font-size: 1rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.mainConocenosFooterTextB {
+}
+
 .mainConocenosHeader {
   background-color: $bg-color5;
   padding: 1rem;
@@ -986,6 +1016,10 @@ footer > div {
   .mainConocenosBody {
     width: 80%;
   }
+
+  // .mainConocenosFooter {
+  //   width: 80%;
+  // }
 
   .mainConocenosHeader {
     width: 80%;
