@@ -8,9 +8,9 @@
   color: $color-font;
 }
 
-// .bodyUltraPase {
-//   background-color: $bg-color;
-// }
+.bodyConocenos {
+  background-color: $bg-color5;
+}
 
 footer > div {
   background-color: $bg-color2 !important;
@@ -201,12 +201,20 @@ footer > div {
   @include fondoTransparente;
 }
 
+.headerConocenos {
+  background-color: $bg-color5;
+  padding: 1rem;
+}
+
 .headerConocenosDiv {
+  background-color: $bg-color5;
+
 }
 
 .headerConocenosDivSubTitle {
+  background-color: $bg-color5;
   color: $color-font5;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
   margin-top: 0.5rem;
@@ -214,8 +222,9 @@ footer > div {
 }
 
 .headerConocenosDivTitle {
+  background-color: $bg-color5;
   color: $color-font2 !important;
-  font-size: 3rem;
+  font-size: 2.25rem;
   font-weight: 600;
   margin-bottom: 0;
   margin-top: 1rem;
@@ -875,11 +884,13 @@ footer > div {
   }
 
   .headerConocenosDivSubTitle {
+    font-size: 1.25rem;
     margin-bottom: 2rem;
   }
 
   .headerConocenosDivTitle {
-    margin-top: 2rem;
+    font-size: 3rem;
+    margin-top: 2.5rem;
   }
 
   .mainColCardEmpresa {
