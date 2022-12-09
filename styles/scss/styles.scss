@@ -565,18 +565,22 @@ footer > div {
 }
 
 .mainConocenosBody {
+  background-color: $bg-color5;
   padding: 1rem;
 }
 
 .mainConocenosBodyImg {
+  background-color: $bg-color5;
   width: 100%;
 }
 
 .mainConocenosFooter {
+  background-color: $bg-color5;
   padding: 1rem;
 }
 
 .mainConocenosFooterH1Title {
+  background-color: $bg-color5;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.15;
@@ -586,6 +590,7 @@ footer > div {
 }
 
 .mainConocenosFooterH3Title {
+  background-color: $bg-color5;
   font-size: 1.17rem;
   line-height: 1.15;
   margin-bottom: 1rem;
@@ -593,6 +598,7 @@ footer > div {
 }
 
 .mainConocenosFooterText {
+  background-color: $bg-color5;
   font-size: 1rem;
   line-height: 1.15;
   margin-bottom: 1rem;
@@ -674,7 +680,6 @@ footer > div {
 
 .navLogo {
   height: 40px;
-  // padding-left: 15px;
   width: 150px;
 }
 
@@ -1017,9 +1022,9 @@ footer > div {
     width: 80%;
   }
 
-  // .mainConocenosFooter {
-  //   width: 80%;
-  // }
+  .mainConocenosFooter {
+    width: 80%;
+  }
 
   .mainConocenosHeader {
     width: 80%;

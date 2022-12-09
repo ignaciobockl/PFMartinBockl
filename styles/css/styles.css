@@ -457,15 +457,19 @@ footer > div {
   width: 6rem; }
 
 .mainConocenosBody {
+  background-color: #ffffff;
   padding: 1rem; }
 
 .mainConocenosBodyImg {
+  background-color: #ffffff;
   width: 100%; }
 
 .mainConocenosFooter {
+  background-color: #ffffff;
   padding: 1rem; }
 
 .mainConocenosFooterH1Title {
+  background-color: #ffffff;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.15;
@@ -474,12 +478,14 @@ footer > div {
   text-decoration: underline; }
 
 .mainConocenosFooterH3Title {
+  background-color: #ffffff;
   font-size: 1.17rem;
   line-height: 1.15;
   margin-bottom: 1rem;
   margin-top: 1rem; }
 
 .mainConocenosFooterText {
+  background-color: #ffffff;
   font-size: 1rem;
   line-height: 1.15;
   margin-bottom: 1rem;
@@ -757,6 +763,8 @@ footer > div {
     display: flex;
     flex-direction: column; }
   .mainConocenosBody {
+    width: 80%; }
+  .mainConocenosFooter {
     width: 80%; }
   .mainConocenosHeader {
     width: 80%; }
