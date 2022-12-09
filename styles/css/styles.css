@@ -4,6 +4,9 @@
   background-color: #fafafa;
   color: #2f3143; }
 
+.bodyConocenos {
+  background-color: #ffffff; }
+
 footer > div {
   background-color: #393839 !important; }
 
@@ -155,6 +158,31 @@ footer > div {
 .headerCarouselButtonControl > span {
   background-color: transparent; }
 
+.headerConocenos {
+  background-color: #ffffff;
+  padding: 1rem; }
+
+.headerConocenosDiv {
+  background-color: #ffffff; }
+
+.headerConocenosDivSubTitle {
+  background-color: #ffffff;
+  color: #aaa;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  text-align: center; }
+
+.headerConocenosDivTitle {
+  background-color: #ffffff;
+  color: #fdbe15 !important;
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  text-align: center; }
+
 .headerDivCarouselButtons {
   background-color: transparent; }
 
@@ -170,6 +198,22 @@ footer > div {
 .mainColCard {
   padding-left: 0;
   padding-right: 0; }
+
+.mainColCardClubBody {
+  padding-bottom: 1rem; }
+
+.mainColCardClubBodyImg {
+  max-width: 100%; }
+
+.mainColCardClubHeaderSubTitle {
+  font-size: 1.1rem;
+  line-height: 1.15; }
+
+.mainColCardClubHeaderTitle {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 1rem; }
 
 .mainColCardEmpresa {
   align-items: center;
@@ -355,6 +399,14 @@ footer > div {
   margin-bottom: 0;
   text-align: center; }
 
+.mainColCardServiciosAdicionalesDivBodyTitle {
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.mainColCardServiciosAdicionalesDivHeaderImg {
+  height: 84px;
+  width: 220px; }
+
 .mainColCardServiciosAnuncioSubTitle {
   color: #2f3143;
   font-size: 1rem;
@@ -376,6 +428,124 @@ footer > div {
 .mainColCardServiciosBannerAImg {
   height: 10rem;
   width: 100%; }
+
+.mainColCardUltraPase {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem; }
+
+.mainColCardUltraPaseDivBodyText {
+  font-size: 1rem;
+  line-height: 1.15;
+  margin-top: 1rem;
+  text-align: center; }
+
+.mainColCardClubDivBodyText {
+  color: #555;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1rem !important;
+  margin-top: 0.5rem;
+  text-align: center; }
+
+.mainColCardUltraPaseDivBodyTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  text-align: center; }
+
+.mainColCardUltraPaseDivHeaderImg {
+  height: 6rem;
+  width: 6rem; }
+
+.mainColCardClubDivHeaderImg {
+  height: 6rem;
+  width: 6rem; }
+
+.mainColServicios {
+  margin-bottom: 2rem; }
+
+.mainColServiciosH1Title {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.15;
+  text-align: center; }
+
+.mainColServiciosPSubTitle {
+  font-size: 1rem;
+  line-height: 1.15;
+  text-align: center; }
+
+.mainConocenosBody {
+  background-color: #ffffff;
+  padding: 1rem; }
+
+.mainConocenosBodyImg {
+  background-color: #ffffff;
+  width: 100%; }
+
+.mainConocenosFooter {
+  background-color: #ffffff;
+  padding: 1rem; }
+
+.mainConocenosFooterH1Title {
+  background-color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-decoration: underline; }
+
+.mainConocenosFooterH3Title {
+  background-color: #ffffff;
+  font-size: 1.17rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.mainConocenosFooterText {
+  background-color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.mainConocenosHeader {
+  background-color: #ffffff;
+  padding: 1rem; }
+
+.mainConocenosHeaderSubTitle {
+  background-color: #ffffff;
+  font-size: 1rem;
+  font-weight: bolder;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.mainConocenosHeaderText {
+  background-color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.mainConocenosHeaderTitleH2 {
+  background-color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.15; }
+
+.mainConocenosHeaderTitleH3 {
+  background-color: #ffffff;
+  font-size: 1.17rem;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-decoration: underline; }
 
 .mainRowEmpresa {
   padding-bottom: 2rem; }
@@ -500,6 +670,9 @@ footer > div {
     padding-right: 0.25rem; }
   .mainColCardServiciosBannerAImg {
     min-height: 272px; }
+  .mainColCardUltraPase {
+    margin-left: 1rem;
+    margin-right: 1rem; }
   .mainContainer {
     max-width: 2500px; } }
 
@@ -524,6 +697,8 @@ footer > div {
     align-items: center; }
   .headerImg {
     min-height: 336px; }
+  .mainColCardClubBody {
+    padding-bottom: 0; }
   .mainColCardEmpresaA {
     width: 65% !important; }
   .mainColCardEmpresaBody {
@@ -545,7 +720,18 @@ footer > div {
   .navItem {
     display: flex !important;
     justify-content: flex-end !important;
-    flex-direction: row; } }
+    flex-direction: row; }
+  .rowCardsClub {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .rowCardsClubBanner {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem; } }
 
 @media screen and (max-width: 768px) {
   .headerImg {
@@ -567,6 +753,12 @@ footer > div {
 @media screen and (min-width: 992px) {
   .footerColRedesSociales {
     justify-content: space-between; }
+  .headerConocenosDivSubTitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem; }
+  .headerConocenosDivTitle {
+    font-size: 3rem;
+    margin-top: 2.5rem; }
   .mainColCardEmpresa {
     align-items: center;
     display: flex;
@@ -587,6 +779,17 @@ footer > div {
     margin-bottom: 0.4rem; }
   .mainColCardServiciosBannerAImg {
     min-height: 312px; }
+  .mainConocenos {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column; }
+  .mainConocenosBody {
+    width: 80%; }
+  .mainConocenosFooter {
+    width: 80%; }
+  .mainConocenosHeader {
+    width: 80%; }
   .mainContainer {
     padding-top: 4rem;
     width: 90%; } }
@@ -603,7 +806,9 @@ footer > div {
     width: 80%; }
   .mainColCardInfoUtilContainer {
     max-height: 230px !important;
-    min-height: 229px !important; } }
+    min-height: 229px !important; }
+  .rowCardsClubBanner {
+    margin-top: 3rem; } }
 
 @media screen and (min-width: 1400px) {
   .mainColCardEmpresaA {
